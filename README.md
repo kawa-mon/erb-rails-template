@@ -1,4 +1,4 @@
-# slim-rails-template
+# erb-rails-template
 ## 概要
 これは、Railsアプリケーションを作る際にテンプレートとして使用することで、  
 新しいプロジェクトに、高速に必要不可欠なgemや設定を組み込むことができるテンプレートです。
@@ -53,4 +53,3 @@ $ rails new . -T -d postgresql -m [path to your rails-template]
   - config/application.yml で定数を一元管理できる。 `Settings.hoge` の形式で呼び出せる
 - [simplecov](https://github.com/colszowka/simplecov)
   - `$ bin/rspec` で coverage/index.html にテストカバレッジ結果を得られる
-- slim系

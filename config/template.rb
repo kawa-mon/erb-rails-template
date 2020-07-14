@@ -45,9 +45,6 @@ insert_into_file 'config/application.rb', before: /^  end/ do
     # Libディレクトリの読み込み
     config.paths.add 'lib', eager_load: true
 
-    # テンプレートエンジンをslimに設定
-    config.generators.template_engine = :slim
-
     # 国際化の設定
     config.i18n.load_path += Dir[Rails.root.join('config/locales/**/*.{rb,yml}').to_s]
     config.i18n.available_locales = %i[ja]

@@ -57,11 +57,9 @@ end
 
 # 追加 gem
 gem 'annotate'
-gem 'html2slim'
 gem 'kaminari'
 gem 'meta-tags'
 gem 'migration_comments'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'seed-fu'
 gem 'settingslogic'
-gem 'slim-rails'
