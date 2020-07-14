@@ -21,17 +21,17 @@ rails newをした後に、その個人・組織のルールに則り、アプ�
 1. mkdir [your app name]
 1. cd [you app name]
 1. git clone  
-```
-$ git clone https://github.com/kawa-mon/rails-template.git
-```
+    ```
+    $ git clone git@github.com:kawa-mon/erb-rails-template.git
+    ```
 
-4. rails new
-```
-$ rails new . -T -d postgresql -m [path to this template repository's "tempalte.rb"]
-e.q) rails new . -T -d postgresql -m ../erb-rails-template/template.rb
-```
+1. rails new
+    ```
+    $ rails new . -T -d postgresql -m [path to this template repository's "tempalte.rb"]
+    e.q) rails new . -T -d postgresql -m ../erb-rails-template/template.rb
+    ```
 
-3. 作られた todo.md に沿って、必要な設定を追加
+1. 作られた todo.md に沿って、必要な設定を追加
 
 ## 追加しているgem
 - annotate系
