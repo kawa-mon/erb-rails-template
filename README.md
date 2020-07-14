@@ -18,14 +18,17 @@ rails newをした後に、その個人・組織のルールに則り、アプ�
 手元の環境に上記のバージョンを用意して、お試しください。
 
 ## 使用方法
-1. gitclone  
+1. mkdir [your app name]
+1. cd [you app name]
+1. git clone  
 ```
 $ git clone https://github.com/kawa-mon/rails-template.git
 ```
 
-2. rails new
+4. rails new
 ```
-$ rails new . -T -d postgresql -m [path to your rails-template]
+$ rails new . -T -d postgresql -m [path to this template repository's "tempalte.rb"]
+e.q) rails new . -T -d postgresql -m ../erb-rails-template/template.rb
 ```
 
 3. 作られた todo.md に沿って、必要な設定を追加
